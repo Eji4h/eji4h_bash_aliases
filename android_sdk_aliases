@@ -1,0 +1,20 @@
+#!/bin/bash
+if [[ $(uname -r) =~ Microsoft$ ]]; then
+    alias adb="/mnt/d/Android/android-sdk/platform-tools/adb.exe"
+else
+    case "$(uname -s)" in
+
+       Darwin)
+         echo 'Mac OS X'
+         ;;
+
+       Linux)
+         echo 'Linux'
+         ;;
+
+       *)
+         echo 'other OS'
+         ;;
+    esac
+fi
+
