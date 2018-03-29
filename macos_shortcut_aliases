@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ $(uname -s) =~ Darwin ]]; then
+    bsr=/Volumes/Backup/Work/Thesis/battleship_ar_root
+    td=/Volumes/Backup/OneDrive/Work/MSIT/Thesis/Documents/
+fi
+
