@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ $(uname -r) =~ Microsoft$ ]]; then
+    bs=/mnt/g/Thesis/battleship_ar_root/battleship_unity
+    td=/mnt/h/OneDrive/Work/MSIT/Thesis/Documents
+fi
+
