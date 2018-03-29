@@ -1,5 +1,8 @@
 #!/bin/bash
 if [[ $(uname -r) =~ Microsoft$ ]]; then
+    alias open="explorer.exe"
+    alias pbcopy="clip.exe"
+
     bs=/mnt/g/Thesis/battleship_ar_root/battleship_unity
     td=/mnt/h/OneDrive/Work/MSIT/Thesis/Documents
 fi
