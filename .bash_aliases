@@ -9,3 +9,7 @@ fi
 if [ -f ~/eji4h_bash_aliases/windows_shortcut_aliases ]; then
     . ~/eji4h_bash_aliases/windows_shortcut_aliases
 fi
+
+if [ -f ~/eji4h_bash_aliases/macos_shortcut_aliases ]; then
+    . ~/eji4h_bash_aliases/macos_shortcut_aliases
+fi
