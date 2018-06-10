@@ -1,6 +1,6 @@
 #!/bin/bash
 if [[ $(uname -r) =~ Microsoft$ ]]; then
-    alias adb="/mnt/d/Android/android-sdk/platform-tools/adb.exe"
+    alias adb="/mnt/c/Users/yosap/AppData/Local/Android/Sdk/platform-tools/adb.exe"
 else
     case "$(uname -s)" in
 
