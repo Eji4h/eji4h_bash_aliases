@@ -18,3 +18,5 @@ alias gssa="git stash apply"
 
 alias gsmuir="git submodule update --init --recursive"
 alias gsmu="git submodule update"
+
+alias gpso="git push --set-upstream origin"
