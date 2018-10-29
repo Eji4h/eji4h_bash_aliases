@@ -1,4 +1,5 @@
 #!/bin/bash
 if [[ $(uname -s) =~ Darwin ]]; then
+	echo 'macOS'
 fi
 
