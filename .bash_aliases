@@ -14,8 +14,8 @@ if [ -f ~/eji4h_bash_aliases/macos_shortcut_aliases ]; then
     . ~/eji4h_bash_aliases/macos_shortcut_aliases
 fi
 
-if [ -f ~/eji4h_bash_aliases/dart_aliases ]; then
-    . ~/eji4h_bash_aliases/dart_aliases
+if [ -f /Applications/flutter/bin/flutter ]; then
+    . ~/eji4h_bash_aliases/flutter_aliases
 fi
 
 if [ -f ~/eji4h_bash_aliases/gcloud_aliases ]; then
