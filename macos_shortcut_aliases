@@ -1,5 +1,5 @@
 #!/bin/bash
 if [[ $(uname -s) =~ Darwin ]]; then
-	echo 'macOS'
+	defaults write com.apple.Finder AppleShowAllFiles true
 fi
 
