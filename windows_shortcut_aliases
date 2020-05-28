@@ -1,5 +1,5 @@
 #!/bin/bash
-if [[ $(uname -r) =~ Microsoft$ ]]; then
+if [[ $(uname -r) =~ microsoft-standard$ ]]; then
     alias open="explorer.exe"
     alias pbcopy="clip.exe"
 fi
