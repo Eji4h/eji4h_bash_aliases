@@ -1,3 +1,2 @@
 
 alias gc="gcloud"
-alias kc="kubectl"
