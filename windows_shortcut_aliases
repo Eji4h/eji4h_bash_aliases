@@ -4,3 +4,6 @@ if [[ $(uname -r) =~ microsoft-standard$ ]]; then
     alias pbcopy="clip.exe"
 fi
 
+export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+export PULSE_SERVER=tcp:$(grep nameserver /etc/resolv.conf | awk '{print $2}')
+
