@@ -15,6 +15,10 @@ if [ -f ~/eji4h_bash_aliases/git_aliases ]; then
     . ~/eji4h_bash_aliases/git_aliases
 fi
 
+if [ -f ~/eji4h_bash_aliases/terragrunt_aliases ]; then
+    . ~/eji4h_bash_aliases/terragrunt_aliases
+fi
+
 if [ -f ~/eji4h_bash_aliases/gh_complete ]; then
     . ~/eji4h_bash_aliases/gh_complete
 fi
