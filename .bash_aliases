@@ -1,3 +1,5 @@
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 if [ -f ~/eji4h_bash_aliases/android_sdk_aliases ]; then
     . ~/eji4h_bash_aliases/android_sdk_aliases
