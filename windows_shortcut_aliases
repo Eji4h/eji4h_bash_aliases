@@ -2,9 +2,9 @@
 if [[ -n $WSL_DISTRO_NAME ]]; then
     alias open="explorer.exe"
     alias pbcopy="clip.exe"
+    # export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+    export DISPLAY=$(ip route | grep default | awk '{print $3; exit;}'):0.0
+    export PULSE_SERVER=tcp:$(grep nameserver /etc/resolv.conf | awk '{print $2}')
 fi
 
-# export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-export DISPLAY=$(ip route | grep default | awk '{print $3; exit;}'):0.0
-export PULSE_SERVER=tcp:$(grep nameserver /etc/resolv.conf | awk '{print $2}')
 
