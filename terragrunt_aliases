@@ -1,1 +1,2 @@
+alias tg=terragrunt
 alias tfmt="terragrunt hclfmt"
