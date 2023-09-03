@@ -37,7 +37,3 @@ if [ -f ~/eji4h_bash_aliases/windows_shortcut_aliases ]; then
     . ~/eji4h_bash_aliases/windows_shortcut_aliases
 fi
 
-if [ -f ~/eji4h_bash_aliases/yarn_path ]; then
-    . ~/eji4h_bash_aliases/yarn_path
-fi
-
