@@ -55,3 +55,24 @@ windows_shortcut_aliases
 
 yarn_path
 - yarn
+
+## Unity Launcher (`open-unity.sh`)
+
+Cross-platform helper to launch the Unity Editor with an optional active build target.
+
+```bash
+./open-unity.sh              # open Unity (standalone path)
+./open-unity.sh -a           # Android build target
+./open-unity.sh -i           # iOS build target
+./open-unity.sh --unity-version 2022.3.10f1 -a   # Unity Hub install
+```
+
+Standalone installs (auto-detected):
+
+| OS | Path |
+| --- | --- |
+| Windows / WSL | `C:\Program Files\Unity\Editor\Unity.exe` |
+| macOS | `/Applications/Unity/Unity.app/Contents/MacOS/Unity` |
+| Linux | `unity-editor` on `PATH`, else `/usr/bin/unity-editor` |
+
+Unity Hub installs embed the version in the path. Use `--unity-version` (exact folder name or prefix match). Override the Hub “Editor” root with `UNITY_HUB_EDITOR_ROOT` if needed. You can also set `UNITY_EDITOR` to a full executable path to skip detection.
