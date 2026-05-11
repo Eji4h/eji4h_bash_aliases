@@ -11,11 +11,11 @@ else
          ;;
 
        Linux)
-         echo 'Linux'
+         : # no-op (printing here triggers Powerlevel10k instant prompt warning)
          ;;
 
        *)
-         echo 'other OS'
+         : # other OS
          ;;
     esac
 fi
